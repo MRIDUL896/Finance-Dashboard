@@ -1,6 +1,6 @@
 import { TrendingDown, TrendingUp, Wallet } from "lucide-react";
 import { useDashboardData } from "../../hooks/useDashboardData";
-import StatCard from "../common/Statcard";
+import StatCard from "../common/StatCard";
 
 export default function SummarySection() {
   const { balance, income, expenses } = useDashboardData();
